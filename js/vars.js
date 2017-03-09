@@ -1,9 +1,15 @@
-var homeImage =
+// var homeImage = jQuery.get('homeImage.html', function(data)) {
+// 	return data;
+// }
 "<img src='img/profile.jpg' alt='...' class='img-thumbnail profile'>";
 
-var homeHeader =
-"<h1>Calvin Chen</h1>" +
-"<h3><span>Prospective graduate student at the University of Michigan - Ann Arbor.</span></h3>";
+var homeHeader = jQuery.get('homeHeader.html', function(data)) {
+	return data;
+}
+
+// var homeHeader =
+// "<h1>Calvin Chen</h1>" +
+// "<h3><span>Prospective graduate student at the University of Michigan - Ann Arbor.</span></h3>";
 
 var homeBody =
 "<p>小帥哥，恭喜你上研究所拉 ＸＤ 想說送你一個實用的個人網站，但剩下要怎麼改就要靠你自己研究了哈哈。不會再問我！</p>" +
