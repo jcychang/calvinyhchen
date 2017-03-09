@@ -3,7 +3,7 @@ var homeImage = "<img src='img/profile.jpg' alt='...' class='img-thumbnail profi
 // 	return data;
 // }
 
-var homeHeader = jQuery.get('homeHeader.html', function(data) {
+var homeHeader = jQuery.get('homeHeader.txt', function(data) {
 	return data;
 });
 
