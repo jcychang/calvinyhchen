@@ -1,11 +1,11 @@
-// var homeImage = jQuery.get('homeImage.html', function(data)) {
+var homeImage = "<img src='img/profile.jpg' alt='...' class='img-thumbnail profile'>";
+// = jQuery.get('homeImage.html', function(data)) {
 // 	return data;
 // }
-"<img src='img/profile.jpg' alt='...' class='img-thumbnail profile'>";
 
 var homeHeader = jQuery.get('homeHeader.html', function(data)) {
 	return data;
-}
+};
 
 // var homeHeader =
 // "<h1>Calvin Chen</h1>" +
